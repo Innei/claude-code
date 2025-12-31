@@ -26,6 +26,12 @@
 - Never commit automatically unless explicitly requested
 - You are prohibited from accessing the contents of any .env files within the project
 
+### Git Operations
+
+- **NEVER add AI co-authorship** to commits or pull requests
+- Do NOT include "Co-Authored-By: Claude" or similar attribution in git commits
+- Keep git commits clean without any Claude/AI co-authorship footers
+
 ### Framework Compliance
 
 - Check package.json/requirements.txt before using libraries
@@ -36,6 +42,7 @@
 ### Code Structure & Modularity
 
 - **Never create a file longer than 500 lines of code.** If a file approaches this limit, refactor by splitting it into modules or helper files
+- **React UI Components**: Keep individual component files under 300 lines. Split complex components into smaller, focused sub-components following React's composition patterns. Extract reusable logic into custom hooks and shared utilities
 
 ### AI Behavior Rules
 
